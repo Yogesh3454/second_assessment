@@ -1,0 +1,7 @@
+Given an array of length ‘N’, where each element denotes the position of a stall. Now you have ‘N’ stalls and an integer ‘K’ which denotes the number of horses that are mad. To prevent the horses from hurting each other, you need to assign the horses to the stalls, such that the minimum distance between any two of them is as large as possible. Return the largest minimum distance.
+
+array: 1,2,4,8,9  &  k=3
+
+O/P: 3
+
+Explanation: 1st horse at stall 1, 2nd horse at stall 4 and 3rd horse at stall 8
