@@ -1,18 +1,4 @@
-You have an input dictionary given,
 
-input_dict = {"abc":{"def":{"ghi":{"jkl":{"mno":{"pqr":{"stu":{"vwx":{"yz":"you are finally here !!!"}}}}}}}}}
-
-Task:  You have to write a Python function that will take this input and print it like that,
-
-output = {"abc":["def","ghi","jkl","mno","pqr","stu","vwx","yz"],
- "def":["ghi","jkl","mno","pqr","stu","vwx","yz"],
- "ghi":["jkl","mno","pqr","stu","vwx","yz"],
- "jkl":["mno","pqr","stu","vwx","yz"],
- "mno":["pqr","stu","vwx","yz"],
- "pqr":["stu","vwx","yz"],
- "stu":["vwx","yz"],
- "vwx":["yz"],
- "yz":["you are finally here !!!"]}
 
 
 def print_dict_paths(input_dict):
